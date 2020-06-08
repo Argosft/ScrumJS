@@ -62,20 +62,20 @@
             "state": "done",
             "deadline": 1591802130,
             "created": 1591370128
-            },
+        },
         { "id": 10,
             "title": "Dibujar Wireframes",
             "person": "Julio",
             "state": "done",
             "deadline": 1591802130,
             "created": 159137012
-            },
-            { "id": 11,
-                "title": "Escribir requerimientos",
-                "person": "Edyto",
-                "state": "done",
-                "deadline": 1591802130,
-                "created": 1591370128
-            }
-        ]
-    }
+        },
+        { "id": 11,
+            "title": "Escribir requerimientos",
+            "person": "Edyto",
+            "state": "done",
+            "deadline": 1591802130,
+            "created": 1591370128
+        }
+    ]
+}
