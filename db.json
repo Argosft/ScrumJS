@@ -21,67 +21,61 @@
         "deadline": 1591370130,
         "created": 1591370128
         },
-
-
-        {
-            "tasks": [
-              { "id": 1,
+        { "id": 4,
                 "title": "Importar estilos CSS",
                 "person": "Leyci",
                 "state": "to-do",
                 "deadline": 1591802130,
                 "created": 1591370128
-              },
-              { "id": 6,
-                "title": "Importar librerías necesarias",
-                "person": "Julio",
-                "state": "to-do",
-                "deadline": 1591802130,
-                "created": 1591370128
-              },
-              { "id": 7,
-                "title": "Escribir scripts",
-                "person": "Lazo",
-                "state": "to-do",
-                "deadline": 1591802130,
-                "created": 1591370128
-              },
-              { "id": 7,
-                "title": "Subir el proyecto a la nube",
-                "person": "Pablito",
-                "state": "to-do",
-                "deadline": 1591802130,
-                "created": 1591370128
-              },
-              { "id": 2,
-                "title": "Marcado HTML del proyecto",
-                "person": "Edyto",
-                "state": "in-progress",
-                "deadline": 1591802130,
-                "created": 1591370128
-              },
-              { "id": 3,
-                "title": "Planificar el proyecto",
-                "person": "Leyci",
-                "state": "done",
-                "deadline": 1591802130,
-                "created": 1591370128
-              },
-              { "id": 4,
-                "title": "Dibujar Wireframes",
-                "person": "Julio",
-                "state": "done",
-                "deadline": 1591802130,
-                "created": 1591370128
-              },
-              { "id": 5,
+        },
+        { "id": 5,
+            "title": "Importar librerías necesarias",
+            "person": "Julio",
+            "state": "to-do",
+            "deadline": 1591802130,
+            "created": 1591370128
+        },
+        { "id": 6,
+            "title": "Escribir scripts",
+            "person": "Lazo",
+            "state": "to-do",
+            "deadline": 1591802130,
+            "created": 1591370128
+        },
+        { "id": 7,
+            "title": "Subir el proyecto a la nube",
+            "person": "Pablito",
+            "state": "to-do",
+            "deadline": 1591802130,
+            "created": 159137012
+        },
+        { "id": 8,
+            "title": "Marcado HTML del proyecto",
+            "person": "Edyto",
+            "state": "in-progress",
+            "deadline": 1591802130,
+            "created": 1591370128
+        },
+        { "id": 9,
+            "title": "Planificar el proyecto",
+            "person": "Leyci",
+            "state": "done",
+            "deadline": 1591802130,
+            "created": 1591370128
+            },
+        { "id": 10,
+            "title": "Dibujar Wireframes",
+            "person": "Julio",
+            "state": "done",
+            "deadline": 1591802130,
+            "created": 159137012
+            },
+            { "id": 11,
                 "title": "Escribir requerimientos",
                 "person": "Edyto",
                 "state": "done",
                 "deadline": 1591802130,
                 "created": 1591370128
-              }
-            ]
-          }
-    ]
-}
+            }
+        ]
+    }
