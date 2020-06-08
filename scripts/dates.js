@@ -1,3 +1,3 @@
-function unixToDate(time, format = 'DD/MM/YYY') {
+function unixToDate(time, format = 'DD/MM/YYYY') {
     return moment.unix(time).format(format)
 }

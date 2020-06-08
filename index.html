@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="SimpleScrum" />
+    <meta property="og:description" content="Proyecto final del curso de Librerías JS de EDteam" />
     <link rel="stylesheet" href="/styles.css">
     <title>ScrumJs</title>
 </head>
@@ -37,14 +39,14 @@
         <div class="aside-container">
             <h2>Nueva Tarea</h2>
             <div class="form-container">
-                <form>
+                <form id="formTask">
                     <div class="input-container">
                         <label for="titleTask">Título</label>
-                        <input name="titleTask" type="text" placeholder="Escriba un título descriptivo" id="titleTask">
+                        <input name="titleTask" type="text" placeholder="Escriba un título descriptivo" id="titleTask" required>
                     </div>
                     <div class="input-container">
                         <label for="personTask">Responsable</label>
-                        <select name="personTask" id="personTask">
+                        <select name="personTask" id="personTask" required>
                             <option value="">-Seleccionar-</option>
                             <option value="julio">Julio Chávarri</option>
                             <option value="edyto">Edinson Avellaneda</option>
@@ -54,11 +56,13 @@
                         </select>
                     <div class="input-container">
                         <label for="deadlineTask">Plazo de entrega</label>
-                        <select name="deadlineTask" id="deadlineTask">
+                        <select name="deadlineTask" id="deadlineTask" required>
                             <option value="">-Seleccionar-</option>
-                            <option value="one">1 día</option>
-                            <option value="two">2 día</option>
-                            <option value="seven">1 semana</option>
+                            <option value="1">1 días</option>
+                            <option value="2">2 días</option>
+                            <option value="3">3 días</option>
+                            <option value="7">1 semana</option>
+                            <option value="30">1 mes</option>
                         </select>
                     </div>
                     <div class="action-container">
@@ -80,5 +84,6 @@
     <script src="/scripts/gestures.js"></script>
     <script src="/scripts/petitions.js"></script>
     <script src="/scripts/draganddrop.js"></script>
+    <script src="/scripts/form.js"></script>
 </body>
 </html>
