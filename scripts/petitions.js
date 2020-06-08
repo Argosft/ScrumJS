@@ -1,4 +1,4 @@
-const API_URL = "https://my-json-server.typicode.com/edteamlat/simplescrum/tasks"
+const API_URL = "https://my-json-server.typicode.com/Argosft/ScrumJS/tasks"
 
 axios.get(API_URL)
  .then( resp => fillTasks(resp.data))
